@@ -1,0 +1,2 @@
+{"Filepath":"include/QtScript/qtscriptversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QTSCRIPT_VERSION","QTSCRIPT_VERSION_STR","QT_QTSCRIPT_VERSION_H"]}]}
+{"Filepath":"include/QtScriptTools/qtscripttoolsversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QTSCRIPTTOOLS_VERSION","QTSCRIPTTOOLS_VERSION_STR","QT_QTSCRIPTTOOLS_VERSION_H"]}]}

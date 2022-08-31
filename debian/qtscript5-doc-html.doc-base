@@ -1,0 +1,9 @@
+Document: qtscript5-doc-html
+Title: Qt 5 Script module
+Author: The Qt Company Ltd
+Abstract: This is the HTML documentation for Qt 5 Script
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/qtscript5-doc-html/html/qtscript/qtscript-index.html
+Files: /usr/share/doc/qtscript5-doc-html/html/qtscript/*.html

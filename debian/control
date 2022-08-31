@@ -1,0 +1,95 @@
+Source: qtscript-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               dpkg-dev (>= 1.17.14),
+               pkg-kde-tools (>= 0.15.17~),
+               qtbase5-private-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://doc.qt.io/qt-5/qtscript-index.html
+
+Package: libqt5script5
+Provides: qtscript-abi-5-6-0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 script module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtScript module provides classes for making Qt applications scriptable.
+
+Package: libqt5scripttools5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 script tools module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtScriptTools module provides additional components for applications that
+ use Qt Script.
+ .
+ This package contains the Qt Script debugger, a tool for debugging script
+ execution in Qt applications that use Qt Script.
+
+Package: qtscript5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libqt5script5 (= ${binary:Version}),
+         libqt5scripttools5 (= ${binary:Version}),
+         qtbase5-dev | qtbase5-gles-dev,
+         ${misc:Depends}
+Description: Qt 5 script development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using QtScript and QtScriptTools libraries.
+
+Package: qtscript5-examples
+Architecture: any
+Multi-Arch: same
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 script examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 script examples.
+
+Package: qtscript5-doc
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Qt 5 script documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 script libraries.
+
+Package: qtscript5-doc-html
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Qt 5 script HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 script
+ libraries.

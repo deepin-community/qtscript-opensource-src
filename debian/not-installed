@@ -1,0 +1,6 @@
+usr/include/*/qt5/QtScript/5.*
+usr/include/*/qt5/QtScriptTools/5.*
+usr/lib/*/libQt5Script.la
+usr/lib/*/libQt5ScriptTools.la
+usr/lib/*/qt5/mkspecs/modules/qt_lib_script_private.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_scripttools_private.pri
