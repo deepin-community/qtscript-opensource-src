@@ -19,7 +19,7 @@ libQt5ScriptTools.so.5 libqt5scripttools5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (symver)Qt_5_PRIVATE_API 0 1
  _ZN21QScriptEngineDebugger11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN21QScriptEngineDebugger11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN21QScriptEngineDebugger16staticMetaObjectE@Qt_5 5.6.0~beta
