@@ -6,10 +6,10 @@ Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
                dpkg-dev (>= 1.17.14),
                pkg-kde-tools (>= 0.15.17~),
-               qtbase5-private-dev (>= 5.15.3~)
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>
+               qtbase5-private-dev (>= 5.15.7~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.7~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.7~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.7~) <!nodoc>
 Rules-Requires-Root: no
 Standards-Version: 4.6.0
 Homepage: https://doc.qt.io/qt-5/qtscript-index.html

@@ -19,7 +19,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (symver)Qt_5_PRIVATE_API 0 1
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Qt_5 5.6.0~beta
  _Z17qScriptDisconnectP7QObjectPKcRK12QScriptValueS5_@Qt_5 5.6.0~beta
  _Z5qHashRK13QScriptString@Qt_5 5.6.0~beta
@@ -190,9 +190,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN18QScriptEngineAgent14positionChangeExii@Qt_5 5.6.0~beta
  _ZN18QScriptEngineAgent9extensionENS_9ExtensionERK8QVariant@Qt_5 5.6.0~beta
  _ZN18QScriptEngineAgentC1EP13QScriptEngine@Qt_5 5.6.0~beta
- _ZN18QScriptEngineAgentC1ER25QScriptEngineAgentPrivateP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN18QScriptEngineAgentC2EP13QScriptEngine@Qt_5 5.6.0~beta
- _ZN18QScriptEngineAgentC2ER25QScriptEngineAgentPrivateP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN18QScriptEngineAgentD0Ev@Qt_5 5.6.0~beta
  _ZN18QScriptEngineAgentD1Ev@Qt_5 5.6.0~beta
  _ZN18QScriptEngineAgentD2Ev@Qt_5 5.6.0~beta
@@ -215,79 +213,6 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN22QScriptExtensionPluginD0Ev@Qt_5 5.6.0~beta
  _ZN22QScriptExtensionPluginD1Ev@Qt_5 5.6.0~beta
  _ZN22QScriptExtensionPluginD2Ev@Qt_5 5.6.0~beta
- _ZN23QScriptDeclarativeClass11scriptClassERK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass11setPropertyEPNS_6ObjectERKPvRK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass12toArrayIndexERKPvPb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass13functionValueERK12QScriptValueRKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass13propertyFlagsEPNS_6ObjectERKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass13propertyNamesEPNS_6ObjectE@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass13propertyValueERK12QScriptValueRKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass13queryPropertyEPNS_6ObjectERKPv6QFlagsIN12QScriptClass9QueryFlagEE@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass14newObjectValueEP13QScriptEnginePS_PNS_6ObjectE@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass15scopeChainValueEP14QScriptContexti@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass15setSupportsCallEb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass15startsWithUpperERKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass16pushCleanContextEP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC1ERKS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC2ERKS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifierD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20PersistentIdentifieraSERKS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngineiPK7QStringPK12QScriptValuePK6QFlagsINS5_12PropertyFlagEE@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass26createPersistentIdentifierERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass26createPersistentIdentifierERKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass4callEPNS_6ObjectEP14QScriptContext@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngined@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginef@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginei@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginej@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextd@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextf@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContexti@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextj@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1ERKS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngined@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginef@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginei@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginej@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextd@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextf@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContexti@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextj@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2ERKS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueC2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass5ValueD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass6objectERK12QScriptValue@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass7compareEPNS_6ObjectES1_@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass8functionERK12QScriptValueRKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass8propertyEPNS_6ObjectERKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass8propertyERK12QScriptValueRKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass8toStringERKPv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass9newObjectEP13QScriptEnginePS_PNS_6ObjectE@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass9toQObjectEPNS_6ObjectEPb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClass9toVariantEPNS_6ObjectEPb@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClassC1EP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClassC2EP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClassD0Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClassD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN23QScriptDeclarativeClassD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN24QScriptSyntaxCheckResultC1EP31QScriptSyntaxCheckResultPrivate@Qt_5 5.6.0~beta
  _ZN24QScriptSyntaxCheckResultC1ERKS_@Qt_5 5.6.0~beta
  _ZN24QScriptSyntaxCheckResultC1Ev@Qt_5 5.6.0~beta
@@ -297,15 +222,6 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN24QScriptSyntaxCheckResultD1Ev@Qt_5 5.6.0~beta
  _ZN24QScriptSyntaxCheckResultD2Ev@Qt_5 5.6.0~beta
  _ZN24QScriptSyntaxCheckResultaSERKS_@Qt_5 5.6.0~beta
- (subst)_ZN25QScriptEngineAgentPrivate11atStatementERKN5QTJSC17DebuggerCallFrameE{intptr_t}i@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate11returnEventERKN5QTJSC17DebuggerCallFrameE{intptr_t}i@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate12evaluateStopERKN5QTJSC7JSValueE{intptr_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate12functionExitERKN5QTJSC7JSValueE{intptr_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate14exceptionCatchERKN5QTJSC17DebuggerCallFrameE{intptr_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate14exceptionThrowERKN5QTJSC17DebuggerCallFrameE{intptr_t}b@Qt_5_PRIVATE_API 5.6.0~beta 1
- (subst)_ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameE{intptr_t}i@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN25QScriptEngineAgentPrivate6attachEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN25QScriptEngineAgentPrivate6detachEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN28QScriptClassPropertyIteratorC1ERK12QScriptValue@Qt_5 5.6.0~beta
  _ZN28QScriptClassPropertyIteratorC1ERK12QScriptValueR35QScriptClassPropertyIteratorPrivate@Qt_5 5.6.0~beta
  _ZN28QScriptClassPropertyIteratorC2ERK12QScriptValue@Qt_5 5.6.0~beta
@@ -431,12 +347,6 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK20QScriptValueIterator7hasNextEv@Qt_5 5.6.0~beta
  _ZNK22QScriptExtensionPlugin10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QScriptExtensionPlugin12setupPackageERK7QStringP13QScriptEngine@Qt_5 5.6.0~beta
- _ZNK23QScriptDeclarativeClass12supportsCallEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK23QScriptDeclarativeClass20PersistentIdentifier8toStringEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK23QScriptDeclarativeClass5Value13toScriptValueEP13QScriptEngine@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK23QScriptDeclarativeClass6engineEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK23QScriptDeclarativeClass7contextEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK23QScriptDeclarativeClass9isQObjectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK24QScriptSyntaxCheckResult12errorMessageEv@Qt_5 5.6.0~beta
  _ZNK24QScriptSyntaxCheckResult15errorLineNumberEv@Qt_5 5.6.0~beta
  _ZNK24QScriptSyntaxCheckResult17errorColumnNumberEv@Qt_5 5.6.0~beta
@@ -444,29 +354,22 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK28QScriptClassPropertyIterator2idEv@Qt_5 5.6.0~beta
  _ZNK28QScriptClassPropertyIterator5flagsEv@Qt_5 5.6.0~beta
  _ZNK28QScriptClassPropertyIterator6objectEv@Qt_5 5.6.0~beta
- (optional=templinst|arch=armel armhf mips powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.9.1
  _ZTI12QScriptClass@Qt_5 5.6.0~beta
  _ZTI13QScriptEngine@Qt_5 5.6.0~beta
  _ZTI18QScriptEngineAgent@Qt_5 5.6.0~beta
  _ZTI22QScriptExtensionPlugin@Qt_5 5.6.0~beta
- _ZTI23QScriptDeclarativeClass@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZTI25QScriptEngineAgentPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTI25QScriptExtensionInterface@Qt_5 5.6.0~beta
  _ZTI28QScriptClassPropertyIterator@Qt_5 5.6.0~beta
  _ZTS12QScriptClass@Qt_5 5.6.0~beta
  _ZTS13QScriptEngine@Qt_5 5.6.0~beta
  _ZTS18QScriptEngineAgent@Qt_5 5.6.0~beta
  _ZTS22QScriptExtensionPlugin@Qt_5 5.6.0~beta
- _ZTS23QScriptDeclarativeClass@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZTS25QScriptEngineAgentPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTS25QScriptExtensionInterface@Qt_5 5.6.0~beta
  _ZTS28QScriptClassPropertyIterator@Qt_5 5.6.0~beta
  _ZTV12QScriptClass@Qt_5 5.6.0~beta
  _ZTV13QScriptEngine@Qt_5 5.6.0~beta
  _ZTV18QScriptEngineAgent@Qt_5 5.6.0~beta
  _ZTV22QScriptExtensionPlugin@Qt_5 5.6.0~beta
- _ZTV23QScriptDeclarativeClass@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZTV25QScriptEngineAgentPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV25QScriptExtensionInterface@Qt_5 5.6.0~beta
  _ZTV28QScriptClassPropertyIterator@Qt_5 5.6.0~beta
  _ZlsR11QDataStreamRK18QScriptContextInfo@Qt_5 5.6.0~beta
