@@ -1,0 +1,28 @@
+package:
+  id: qtscript
+  name: qtscript
+  kind: lib
+  version: 5.15.7-1+dde
+  description: |
+    qtscript.
+
+base:
+  id: org.deepin.base
+  version: 23.0.0
+
+depends:
+  - id: qtbase
+    version: 5.15.7-1+dde
+
+source:
+  kind: local
+  patch:
+    - debian/patches/disable_failing_tests.diff
+    - debian/patches/disable_v8_sunspider_tests.patch
+    - debian/patches/s390x_jscore.diff
+    - debian/patches/hppa_stackbase.diff
+    - debian/patches/uos-add-sunway-support.patch
+
+build:
+  kind: qmake
+
