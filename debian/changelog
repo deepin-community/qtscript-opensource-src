@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.15.7-1+dde1) unstable; urgency=medium
+
+  * fix loong64 reinterpret_cast loses precision
+
+ -- Chang Yang <yangchang@deepin.org>  Wed, 20 Dec 2023 15:25:50 +0800
+
 qtscript-opensource-src (5.15.7-1+dde) unstable; urgency=medium
 
   * New upstream release (5.15.7).
