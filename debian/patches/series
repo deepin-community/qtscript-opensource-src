@@ -3,3 +3,4 @@ disable_v8_sunspider_tests.patch
 s390x_jscore.diff
 hppa_stackbase.diff
 uos-add-sunway-support.patch
+fix-loong64-reinterpret_cast.patch
